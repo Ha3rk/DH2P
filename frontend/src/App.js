@@ -1,9 +1,16 @@
 import './App.css';
-import ProductPage from './views/ProductPage';
+import Footer from './components/Footer';
+import Navbar from './components/Header';
+import ProductPage from './components/ProductPage';
 
 function App() {
   return (
+    <>
+      <Navbar/>
       <ProductPage/>
+      <Footer/>
+    
+    </>
   );
 }
 
