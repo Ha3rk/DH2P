@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,85 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar-nav a{
+  font-size: 18px;
+}
+
+
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #fff;
+  color: #f58a8a;
+  display: flex;
+  justify-content: space-between; /* Adjusted to separate the logo and links */
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 50px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0; /* Remove margin from the last item to prevent extra space */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #f58a8a;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.search-cart {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 5px;
+  border: 2px solid #f58a8a;
+  background-color: transparent;
+  color: #696969;
+  margin-right: 30px; /* Increase the margin for space */
+  border-radius: 5px;
+  width: 300px;
+}
+.cart-icon {
+  padding: 5px;
+  font-size: 24px;
+  cursor: pointer;
 }
