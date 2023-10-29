@@ -2,12 +2,20 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div>
-          <div className="container">
-          <img src="./assets/bg.jpeg" className="card-img" alt="Background" height="700px" style={{ opacity: 0.75 }} />
-            <h5 className="cart-title display-3 fw-bolder mb-0">New Released Products</h5>
-            <p className="card-text lead fs-2">CHECK OUR NEW ARRIVALS</p>
-          </div>
+<div className="container">
+    <div className="image-container">
+     
+          <img
+        src="./assets/2.jpeg"
+        className="card-img"
+        alt="Background"
+      />
+     
+    </div>
+
+      <h5 c>New Released Products</h5>
+      <p className="card-text lead fs-2">CHECK OUR NEW ARRIVALS</p>
+
     </div>
   );
 };

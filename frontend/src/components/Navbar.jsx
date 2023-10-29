@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="logo">
           <img src="./assets/eagl.png" alt="Logo" />
-          <h2>DH2P Sportgears</h2>
+          <h2>DH2P SPORTGEARS</h2>
         </div>
         <ul className="nav-links">
           <li><a href="/">Home</a></li>
@@ -14,13 +14,13 @@ const Navbar = () => {
           <li><a href="/services">Register</a></li>
           <li><a href="/cart">Cart</a></li>
         </ul>
-
         <div className="search-cart">
-          <input type="text" placeholder="Search" className="search-input" />
-          <div className="cart-icon">
-            <i className="fa fa-shopping-cart"></i>
-          </div>
-        </div>
+    <input type="text" placeholder="Search" className="search-input" />
+    <div className="cart-icon"><span className="cart-quantity">3</span>
+      <i className="fa fa-shopping-cart"></i>
+      
+    </div>
+  </div>
       </nav>
     </div>
   );
