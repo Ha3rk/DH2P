@@ -12,6 +12,7 @@ import NotFound from "./components/NotFound";
 import Home from "./components/Home";
 import Checkout from "./components/Checkout"
 import Trending from './components/Trending';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/cart" element={<Cart />} />
           <Route path="/productpage" element={<Productpage />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/not-found" element={<NotFound />} />
           <Route path="/trending" element={<Trending />} />
           <Route path="/" element={<Home />} />

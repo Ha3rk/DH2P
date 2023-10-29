@@ -12,24 +12,34 @@ body {
 
 
 .navbar {
-  background-color: #031c06;
-  color: #70eeec;
+  background-color: #7a032b;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px; /* Increased padding for better spacing */
+
+
 }
 
 .logo {
-  font-weight: bold;
-  display: flex;
+  font-size: 17px;
+    display: flex;
   align-items: center; /* Center the logo vertically */
   margin-right: 10px; /* Add right margin for spacing between logo and links */
+  font-weight: bold;
 }
 
 .logo img {
   width: 50px;
   height: 50px;
+}
+.home_photo{
+display: inline-block; /* Display images side by side */
+margin: 0;
+width:300px;
+height:330px;
+
 }
 
 .nav-links {
@@ -49,7 +59,7 @@ body {
 
 .nav-links li a {
   text-decoration: none;
-  color: #70eeec;
+  color: #fff;
 }
 
 .nav-links li a:hover {
@@ -63,7 +73,7 @@ body {
 
 .search-input {
   padding: 5px;
-  border: 2px solid #70eeec;
+  border: 2px solid #fff;
   background-color: transparent;
   color: #fff;
   margin-right: 10px; /* Increased margin for spacing between input and cart icon */
@@ -95,7 +105,7 @@ body {
   list-style: none;
 }
 .custom-button {
-  background-color: #70eeec; 
+  background-color: #7a032b;
 }
 
 /* Add this CSS to your stylesheet */
@@ -109,6 +119,7 @@ body {
 }
 
 .image-container {
+  white-space: nowrap;
   position: relative;
   flex: 1; /* Distribute available space equally between images */
 }

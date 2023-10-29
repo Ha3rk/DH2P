@@ -6,25 +6,37 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="logo">
           <img src="./assets/eagl.png" alt="Logo" />
-          <h2>DH2P SPORTGEARS</h2>
+          <h2 className="logo">DH2P SPORTGEARS</h2>
         </div>
         <ul className="nav-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/adults">Adults</a></li>
-          <li><a href="/kids">Kids</a></li>
-          <li><a href="/cart">Cart</a></li>
-          <li><a href="/trending">Trending</a></li>
-          <li><a href="/productpage">Discounts</a></li>
-          <li><a href="/contact">Contact</a>
-          {/*<ul><li>Connect</li><li>Forms</li></ul>*/}
+        <li className="nav-item">
+            <a className="nav-link" href="/">
+              <i className="bi bi-house"></i>
+            </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/trending">
+              <i className="bi bi-lightning"></i>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/kids">
+              <i className="bi bi-people"></i>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/contact">
+              <i className="bi bi-envelope"></i>
+            </a>
+          </li>
+          <li className="cart-icon"><span className="cart-quantity">3</span>
+      <i className="fa fa-shopping-cart"></i>
+      
+    </li>
         </ul>
         <div className="search-cart">
     <input type="text" placeholder="Search" className="search-input" />
-    <div className="cart-icon"><span className="cart-quantity">3</span>
-      <i className="fa fa-shopping-cart"></i>
-      
-    </div>
+   
   </div>
       </nav>
     </div>
