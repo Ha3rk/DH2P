@@ -11,6 +11,7 @@ import Cart from "./components/Cart";
 import NotFound from "./components/NotFound";
 import Home from "./components/Home";
 import Checkout from "./components/Checkout"
+import Trending from './components/Trending';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/productpage" element={<Productpage />} />
           <Route path="/not-found" element={<NotFound />} />
+          <Route path="/trending" element={<Trending />} />
           <Route path="/" element={<Home />} />
           <Route path="/checkout" element={<Checkout />} />
         </Routes>
