@@ -74,7 +74,6 @@ body {
 .cart-icon {
   font-size: 30px;
   position: relative;
-  display: inline-block;
 }
 
 .cart-quantity {
@@ -87,7 +86,7 @@ body {
   justify-content: center;
   height: 15px;
   width: 15px;
-  background-color: #70eeec;
+  background-color: #eac150;
   color: #031c06;
   border-radius: 50%;
 

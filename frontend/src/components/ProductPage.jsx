@@ -4,7 +4,7 @@ const Productpage = () => {
     <div>
     <section className="product">
       <div className="product-image">
-        <img src="./assets/eagl.png" alt="Product Image" />
+        <img src="./assets/coldgear.jpg" alt="Product Image" />
       </div>
       <div className="product-details">
         <h1 className="product-title">Dumbbells</h1>

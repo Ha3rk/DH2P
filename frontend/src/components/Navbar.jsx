@@ -13,6 +13,11 @@ const Navbar = () => {
           <li><a href="/about">Login</a></li>
           <li><a href="/services">Register</a></li>
           <li><a href="/cart">Cart</a></li>
+          <li><a href="/productpage">Trending</a></li>
+          <li><a href="/productpage">Discounts</a></li>
+          <li><a href="/contact">Contact</a>
+          {/*<ul><li>Connect</li><li>Forms</li></ul>*/}
+          </li>
         </ul>
         <div className="search-cart">
     <input type="text" placeholder="Search" className="search-input" />
