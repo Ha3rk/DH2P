@@ -1,46 +1,39 @@
 import fashion from '../../assets/images/Categories/fashion.png';
 import electronics from '../../assets/images/Categories/electronics.png';
 import home from '../../assets/images/Categories/home.png';
+import kids from '../../assets/images/Categories/kids.png';
+import gymwoman from '../../assets/images/Categories/gymwoman.png';
 
 import { Link } from 'react-router-dom';
 
 const catNav = [
 
     {
-        name: "Fashion",
+        name: "Trending",
         icon: fashion,
     },
     {
-        name: "Electronics",
+        name: "Gadgets",
         icon: electronics,
     },
 
     {
-        name: "Home",
+        name: "Book Consultation",
         icon: home,
         },
 
     {
-        name: "Electronics",
-        icon: electronics,
-    },
-    
-    {
-        name: "Fashion",
-        icon: fashion,
-    },
-    {
-        name: "Electronics",
-        icon: electronics,
+        name: "Adults",
+        icon: gymwoman,
     },
 
     {
-        name: "Home",
-        icon: home,
+        name: "Baby & Kids",
+        icon: kids,
         },
 
     {
-        name: "Electronics",
+        name: "Special Offers",
         icon: electronics,
     },
 ]
