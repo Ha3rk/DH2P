@@ -12,49 +12,49 @@ export const categories = [
 export const offerProducts = [
     {
         image: "https://rukminim1.flixcart.com/image/150/150/jqgy3rk0/computer-table/j/2/v/particle-board-dkl-comp-tb-09-delite-kom-brown-original-imafcheqbgers37z.jpeg",
-        name: "Office Study Tables",
-        offer: "From ₹3,290",
+        name: "Dumbells & Barbells",
+        offer: "From €3,290",
         tag: "Made In India Brands",
     },
     {
         image: "https://rukminim1.flixcart.com/image/150/150/ksoz53k0/data-cable/micro-usb-cable/o/w/a/d4-lava-original-imag67jpby4fehga.jpeg",
-        name: "Mobiles & Accessories",
+        name: "Gadgets",
         offer: "In Focus Now",
         tag: "Buy Now!",
     },
     {
         image: "https://rukminim1.flixcart.com/image/150/150/kffq2kw0/calculator/p/m/a/orpat-gt-ot-512-gt-calaculatot-original-imafvwdmnzpzufbb.jpeg",
-        name: "Calculators",
+        name: "Merchs",
         offer: "Min 70% Off",
         tag: "Buy Now!",
     },
     {
         image: "https://rukminim1.flixcart.com/image/150/150/krkyt8w0/office-study-chair/v/l/1/pp-polypropylene-shdelta-1001-savya-home-original-imag5ccydueur3es.jpeg",
-        name: "Office Study Chairs",
+        name: "Gears",
         offer: "Min 40% Off",
         tag: "Grab Now!",
     },
     {
         image: "https://rukminim1.flixcart.com/image/150/150/ky0g58w0/smartwatch/v/w/p/33-android-ios-id116-plus-fitpro-yes-original-imagacdfj58fqtgf.jpeg",
-        name: "Smart Watches",
+        name: "Shoes",
         offer: "Min 40% Off",
         tag: "Discover Now!",
     },
     {
         image: "https://rukminim1.flixcart.com/image/150/150/khmbafk0-0/tripod/tripod/6/7/5/professional-3110-tripod-with-mobile-holder-light-aluminum-alloy-original-imafxhcaks7j2tq8.jpeg",
-        name: "Tripods",
+        name: "Utilities",
         offer: "Min 50% Off",
         tag: "Great Savings!",
     },
     {
         image: "https://rukminim1.flixcart.com/image/150/150/kjn6qvk0-0/shoe/d/c/v/ck2669-001nike-12-nike-black-white-smoke-grey-original-imafz5vwe5t53z3t.jpeg",
-        name: "Nike, Skechers & more",
+        name: "Designers",
         offer: "Upto 40% Off",
         tag: "Buy Now!",
     },
     {
         image: "https://rukminim1.flixcart.com/flap/150/150/image/72e01243baf51459.jpg",
-        name: "Immunity Booster",
+        name: "Nutrition & Supplements",
         offer: "Upto 50% Off",
         tag: "Great Savings!",
     },
@@ -72,19 +72,16 @@ export const offerProducts = [
     },
     {
         image: "https://rukminim1.flixcart.com/image/150/150/kxdl3m80/air-conditioner-new/a/h/e/-original-imag9ua4eguhz7vr.jpeg",
-        name: "Air Conditioners",
+        name: "Bands",
         offer: "Min 20% Off",
         tag: "Shop Now!",
     },
     {
-        image: "https://rukminim1.flixcart.com/image/150/150/ku79vgw0/watch/t/f/y/nn9440nm01-titan-men-original-imag7cvayzwgazbm.jpeg",
-        name: "Titan, Fastrack, Casio",
-        offer: "Upto 75% Off",
-        tag: "Grab Now!",
+
     },
     {
         image: "https://rukminim1.flixcart.com/image/150/150/ksoz53k0/data-cable/micro-usb-cable/o/w/a/d4-lava-original-imag67jpby4fehga.jpeg",
-        name: "Mobile Cables",
+        name: "Fitness Monitor",
         offer: "Min 50% Off",
         tag: "Explore Now!",
     },
@@ -112,22 +109,12 @@ export const offerProducts = [
         offer: "Upto 55% Off",
         tag: "Top Rated",
     },
-    {
-        image: "https://rukminim1.flixcart.com/image/150/150/k7jdg280/lehenga-choli/m/h/f/free-na-102l10171-saara-original-imafprdmenpgbx2n.jpeg",
-        name: "Lehenga Cholis",
-        offer: "Min 60% Off",
-        tag: "Great Savings!",
-    },
-    {
-        image: "https://rukminim1.flixcart.com/image/150/150/ky3b0y80/television/s/k/h/-original-imagaedxhbam3wmx.jpeg",
-        name: "8K UHD | QLED TVs",
-        offer: "Upto 65% Off",
-        tag: "Discover Now!",
-    },
+
+
     {
         image: "https://rukminim1.flixcart.com/image/150/150/jlgwmfk0/coffee-table/c/h/9/rosewood-sheesham-inlct23-induscraft-honey-brown-original-imaf8kc3gprrchxd.jpeg",
         name: "Coffee Tables",
-        offer: "From ₹1,900",
+        offer: "From €1,900",
         tag: "Relax & Work",
     },
     {
@@ -136,34 +123,19 @@ export const offerProducts = [
         offer: "Min 50% Off",
         tag: "Explore Now!",
     },
-    {
-        image: "https://rukminim1.flixcart.com/image/150/150/kbgu1e80/refrigerator-new/g/g/r/steel-inverter-technology-whirlpool-original-imafssu7ghxg5zgh.jpeg",
-        name: "Refrigerators",
-        offer: "Upto 20% Off",
-        tag: "Shop Now!",
-    },
+
     {
         image: "https://rukminim1.flixcart.com/image/150/150/kqidx8w0/television/o/h/9/43fa0a00-oneplus-original-imag4gy9perzvrdv.jpeg",
         name: "Most Trending TVs",
         offer: "Upto 60% Off",
         tag: "Great Savings!",
     },
-    {
-        image: "https://rukminim1.flixcart.com/image/150/150/keaaavk0/computer/x/m/y/lenovo-na-laptop-original-imafuzt8r5jqppfn.jpeg",
-        name: "Laptops",
-        offer: "Min 20% Off",
-        tag: "Great Savings!",
-    },
+
     {
         image: "https://rukminim1.flixcart.com/image/150/150/jtvtz0w0/sling-bag/d/u/k/ponam110-ponam-green-deniza-sling-bag-roseberries-original-imafyuvty2kzymr7.jpeg",
         name: "Handbags",
         offer: "Min 70% Off",
         tag: "Grab Now!",
     },
-    {
-        image: "https://rukminim1.flixcart.com/image/150/150/jjkbhjk0/sandwich-maker/5/q/g/nova-2-slice-sandwich-maker-original-imaf74a8zrqzfgug.jpeg",
-        name: "Sandwich Makers",
-        offer: "Upto 80% Off",
-        tag: "Buy Now!",
-    }
+
 ]
