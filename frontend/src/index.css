@@ -6,6 +6,9 @@ body {
     background-color: #f1f3f6;
     font-family: 'Roboto', sans-serif;
 }
+.nav-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); /* Modify the values as needed */
+}
 
 /* hover navbar dropdown arrow */
 .arrow_down {
