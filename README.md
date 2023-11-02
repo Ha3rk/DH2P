@@ -1,2 +1,2 @@
 # DH2P
-A shop website integrated with Docker and Kubernetes
+A fully functional E-commerce website, Dockerized and integrated to Kubernetes.
