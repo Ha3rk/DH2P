@@ -1,5 +1,5 @@
 # DH2P-MERN
-Full-Stack Ecommerce with Admin Dashboard & Payment Gateway.
+Full-Stack Ecommerce with Admin Dashboard & Paytm payment Gateway.
 
 ## 🖥️ Tech Stack
 **Frontend:**
