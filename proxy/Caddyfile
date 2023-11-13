@@ -1,0 +1,15 @@
+{
+    auto_https off
+}
+
+http://backend.localhost {
+    basicauth {
+        user1 $2a$14$qDy.rPlayhETj9.kJ4VP3uKePlXPW7uccYUpBb68Yv3cyKaQg0qEK
+    }
+    reverse_proxy vhost1:8080
+}
+
+# Reverse proxy for React frontend
+http://frontend.localhost {
+    reverse_proxy vhost2:3000
+}

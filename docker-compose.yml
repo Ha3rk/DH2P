@@ -1,0 +1,98 @@
+version: "3.8"
+
+services:
+
+
+
+  vhost1:
+    container_name: vhost1
+    build:
+      context: ./infrastructure
+      dockerfile: Dockerfile.vhost1
+    volumes:
+      - ./vhost1:/var/www/html
+    networks:
+      - net1
+
+  vhost2:
+    container_name: vhost2
+    build:
+      context: ./infrastructure
+      dockerfile: Dockerfile.vhost2
+    networks:
+      - net2
+
+  proxy:
+    build:
+      context: ./proxy
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - net1
+      - net2
+      - net3
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    environment:
+      - MONGO_URI=mongodb://admin:password@database:27017/dh2p_database
+    depends_on:
+      - database
+      
+    networks:
+      - net1
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    networks:
+      - net1
+
+  database:
+    container_name: database
+    build:
+      context: ./database
+      dockerfile: Dockerfile
+    volumes:
+      - db_data:/data/db
+    networks:
+      - net1
+
+  # startup:
+  #   container_name: startup
+  #   build:
+  #     context: ./scripts
+  #     dockerfile: Dockerfile
+  #   command: ansible-playbook /opt/playbook.yml
+  #   volumes:
+  #     - ./startup:/opt
+  #     - /var/run/docker.sock:/var/run/docker.sock
+  #   depends_on:
+  #     - vhost1
+  #     - vhost2
+  #     # - database
+  #     - proxy
+  #   networks:
+  #     - net1
+  #     - net2
+  #     - net3
+
+volumes:
+  db_data:
+  
+
+networks:
+  net1:
+  net2:
+  net3:
